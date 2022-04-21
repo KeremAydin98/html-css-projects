@@ -1,0 +1,48 @@
+#title {
+  font-size: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#text {
+  text-align: center;
+}
+
+.gray_background {
+  background: rgb(220,220,220);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#image {
+  display:block;
+  max-width: 80%;
+  margin:auto;
+}
+
+#img-div{
+  
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info { 
+  text-align:center;
+}
+
+.unordered-list {
+  
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+li {
+  margin-top: 10px;
+}
+
+.link {
+  text-align: center;
+}
