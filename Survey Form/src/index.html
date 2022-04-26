@@ -1,0 +1,65 @@
+<div id="background-students">
+
+<h1 id="title">freeCodeCamp Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform </p>
+
+<div id="survey-form-wrapper">
+  
+  <form id="survey-form">
+    
+    <label id="name-label" for="name">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+  
+    
+   <label id="email-label" for="email">Email</label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+   
+    
+  <label id="age-label" for="age">Age(optional)</label>
+    <input id="age" type="number" min = 10  max = 100 placeholder="Enter your age" required>
+  
+  <label id="number-label" for="number">Number</label>
+    <input id="number" type="number" min = "10"  max = "100" placeholder="Enter your telephone number"  required>
+  
+  <label for="dropdown">Which option best describes your current role?</label>
+  <select name="dropdown" id="dropdown">
+    <option value="option">Select an option</option>
+    <option value="Student">Student</option>
+    <option value="Full time job">Full Time Job</option>
+    <option value="Full time learner">Full time learner</option>
+    <option value="Prefer not to say">Prefer not to say</option>
+    <option value="Other">Other</option>
+  </select>
+  
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+
+  <label for="definitely">
+      <input type="radio" id="definitely" name="recommendation" value="definitely">Definitely</label>
+  <label for="maybe">
+      <input type="radio" id="maybe" name="recommendation" value="Maybe">Maybe</label>
+  <label for="not-sure">
+      <input type="radio" id="not-sure" name="recommendation" value="not-sure">Not sure</label>
+
+  <p>What would you like to see improved? (Check all that apply)</p>
+
+    
+    <label for="frontend"><input type="checkbox" id="frontend" name="improvement" value="Front-end Projects">Front-end Projects</label><br>
+     <label for="backend">
+    <input type="checkbox" id="backend" name="improvement" value="Back-end Projects">Back-end Projects</label><br>
+    <label for="Data">
+    <input type="checkbox" id="Data" name="improvement" value="Data">Data Visualization</label>
+    <label for="Challenges">
+    <input type="checkbox" id="Challenges" name="improvement" value="Challenges">Challenges</label>
+  
+  <p>Any comments or suggestions?</p>
+  
+  <textarea id="textarea" name="w3review" rows="4" cols="50">
+  </textarea>
+  
+  <button id="submit" type="submit">Submit</button>
+  
+  </form>
+</div>
+
+</div>
