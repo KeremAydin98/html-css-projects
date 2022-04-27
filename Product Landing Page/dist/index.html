@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Kerem Aydin</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+  <img class="header-img" id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
+  <nav class="nav-bar" id="nav-bar">
+      <div>
+        <a class="nav-link" href="#main">Features</a>
+      </div>
+      <div> 
+        <a class="nav-link" href="#video">How it works</a>
+      </div>
+      <div> 
+        <a class="nav-link" href="#price">Pricing</a>
+      </div>
+    
+  </nav>
+</header>
+
+<h2 class="title">Handcrafted Email Address</h2>
+
+<form id="form" name="submit" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" name="email" placeholder="Enter your email address" type="email" required>
+    <button id="submit" value="submit" type="submit">GET STARTED</button> 
+</form>
+
+<div id="main">
+  <div id="main__items">
+    <div>
+      <img  id="main__img" src="data:image/png;base64,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">
+    </div>
+    <div id="main__txt">
+    <h2>Premium Materials</h2>
+    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+    </div>
+    </div>
+  
+  
+  
+  <div id="main__items">
+    <div>
+      <img id="main__img" src="https://thumbs.dreamstime.com/b/truck-icon-vector-isolated-white-background-sign-office-symbols-transparent-134589528.jpg">
+    </div>
+  <div id="main__txt">
+    <h2>Fast Shipping</h2>
+    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+  </div>
+  </div>
+  
+ <div id="main__items">
+    <div>
+      <img id="main__img" src="https://thumbs.dreamstime.com/b/battery-icon-vector-isolated-white-background-battery-sign-battery-icon-vector-isolated-white-background-battery-transparent-133798584.jpg">
+    </div> 
+  <div id="main__txt">
+    <h2>Quality Assurance</h2>
+    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+  </div>
+</div>
+  
+  
+  
+</div>
+
+<iframe id="video" width="1000" height="600"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> 
+
+<div id="price">
+  <div class="price__div">
+    <div class="price__title">
+      <h3>Radio Ga Ga</h3>
+      <h2>600$</h2>
+      <p>I'd sit alone and watch your light<br>
+My only friend through teenage nights<br>
+And everything I had to know </p>
+      <button type="submit" id="submit">SELECT</button>
+    </div>
+    
+  </div>
+  <div class="price__div">
+    <div class="price__title">
+      <h3>Killer Queen</h3>
+      <h2>900$</h2>
+      <p>She keeps her Moet et Chandon<br>
+In her pretty cabinet<br>
+"Let them eat cake", she says<br>
+      Just like Marie Antoinette</p>
+      <button type="submit" id="submit">SELECT</button>
+    </div>
+  </div>
+  <div class="price__div">
+    <div class="price__title">
+      <h3>Bohemian Rhapsody</h3>
+      <h2>1200$</h2>
+      <p>Is this the real life?<br>
+Is this just fantasy?<br>
+Caught in a landside<br>
+  No escape from reality<br>
+        Open your eyes,
+</p>
+      <button type="submit" id="submit">SELECT</button>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <footer>
+    Copyright 2016, Original Trombones
+  </footer>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
